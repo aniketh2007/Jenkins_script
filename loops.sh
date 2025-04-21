@@ -1,3 +1,4 @@
-#!bin/bash
-env= $1
-echo "Hello I am an ${stage} stages"
+#!/bin/bash
+
+stage=$1
+echo "Hello I am in ${stage} stage"
